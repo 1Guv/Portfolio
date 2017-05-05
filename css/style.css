@@ -1,0 +1,53 @@
+section {
+  height: 100vh;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+p {
+  width: 500px;
+  display: inline-block;
+}
+
+#bio, #home, #project1, #project2, #project3, #project4, #skills, #contact {
+  padding-top: 10vh;
+}
+
+.home {
+  /*-webkit-clip-path: polygon(0 13%, 100% 13%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  clip-path: polygon(0 13%, 100% 13%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+  /*-webkit-clip-path: polygon(0 0, 41% 0, 75% 100%, 0% 100%);
+  clip-path: polygon(0 0, 41% 0, 75% 100%, 0% 100%);*/
+
+  /*background-image: url('http://www.apnaplates.com/app/webroot/GSS4/2014_novitec_torado_adv1_lamborghini_aventador_4_1280x960.jpg');*/
+  background-image: url('../images/silver_lining-wallpaper-1280x768.jpg');
+  /*background-image: url('../images/london.jpg');*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #C5D5EA;*/
+  /*background-color: yellow;*/
+
+  font-family: 'Grand Hotel', cursive;
+  font-size: 300px;
+  color: black;
+}
+
+.project1 {
+  /*background-image: url('../images/p1-word-conundrum.png');*/
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  height: 5%;
+  width: 5%;
+}
