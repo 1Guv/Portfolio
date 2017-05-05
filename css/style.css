@@ -1,7 +1,7 @@
 section {
   height: 100vh;
   text-align: center;
-  margin-top: 10vh;
+  /*margin-top: 10vh;*/
 }
 
 p {
@@ -9,9 +9,9 @@ p {
   display: inline-block;
 }
 
-#bio, #home, #project1, #project2, #project3, #project4, #skills, #contact {
+/*#bio, #home, #project1, #project2, #project3, #project4, #project5, #skills, #contact {
   padding-top: 10vh;
-}
+}*/
 
 .home {
   /*-webkit-clip-path: polygon(0 13%, 100% 13%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
@@ -47,7 +47,33 @@ p {
   background-size: cover;
 }
 
-img {
+.project5 {
+
+}
+
+.leftbox {
+  width: 50%;
+  height: 100vh;
+  background-color: #bfd3e2;
+  float: left;
+}
+
+.rightbox {
+  margin-left: 50%;
+  height: 100vh;
+  /*background-color: grey;*/
+}
+
+.content {
+  margin-top: 10vh;
+}
+
+.screenshot {
+  margin-top: 30%;
+  width: 60%;
+}
+
+/*img {
   height: 5%;
   width: 5%;
-}
+}*/
