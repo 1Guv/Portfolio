@@ -1,7 +1,7 @@
 section {
   height: 100vh;
   text-align: center;
-  /*margin-top: 10vh;*/
+  margin-top: 10vh;
 }
 
 p {
@@ -80,7 +80,7 @@ p {
   border: 1px black solid;
 }
 
-/*img {
+.skills img {
   height: 5%;
   width: 5%;
-}*/
+}
