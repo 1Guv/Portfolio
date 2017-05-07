@@ -58,7 +58,7 @@ h2, h3 {
   font-size: 30px;
 }
 
-.project1 {
+.div-point-right {
   -webkit-clip-path: polygon(95% 0, 100% 50%, 100% 50%, 95% 100%, 0 100%, 0 0);
   clip-path: polygon(95% 0, 100% 50%, 100% 50%, 95% 100%, 0 100%, 0 0);
 
@@ -69,6 +69,19 @@ h2, h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.div-point-left {
+  -webkit-clip-path: polygon(5% 1%, 100% 0, 100% 100%, 5% 100%, 0 50%, 0 50%);
+  clip-path: polygon(5% 1%, 100% 0, 100% 100%, 5% 100%, 0 50%, 0 50%);
+
+  /*background-image: url('../images/p1-word-conundrum.png');*/
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .contact {
   background-image: url('../images/horizon.jpg');
@@ -121,5 +134,4 @@ h2, h3 {
   background: #ECE9E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
