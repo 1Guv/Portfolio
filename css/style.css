@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 section {
   height: 100vh;
   text-align: center;
@@ -8,13 +12,9 @@ a {
 }
 
 p {
-  width: 500px;
+  width: 550px;
   display: inline-block;
 }
-
-/*.topspace {
-  margin-top: 30%;
-}*/
 
 .home {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
@@ -32,10 +32,36 @@ p {
   font-family: 'Grand Hotel', cursive;
   font-size: 300px;
   color: black;
-  padding-top: 7%;
+  padding-top: 5%;
+  /*text-shadow: 2px 2px 8px #FFFFFF*/
+}
+
+#bio p {
+  width: 700px;
+}
+
+.home-tag {
+  margin-top: -6%;
+}
+
+.top {
+  padding-top: 6%;
+}
+
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 40px;
+}
+
+h2, h3 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 30px;
 }
 
 .project1 {
+  -webkit-clip-path: polygon(95% 0, 100% 50%, 100% 50%, 95% 100%, 0 100%, 0 0);
+  clip-path: polygon(95% 0, 100% 50%, 100% 50%, 95% 100%, 0 100%, 0 0);
+
   /*background-image: url('../images/p1-word-conundrum.png');*/
   height: 100vh;
   background-attachment: fixed;
@@ -44,20 +70,29 @@ p {
   background-size: cover;
 }
 
-.project2 {
-  /*background-image: url('../images/p1-word-conundrum.png');*/
+.contact {
+  background-image: url('../images/horizon.jpg');
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*.bio {
+  background-image: url('../images/polygons.jpg');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
 
 .leftbox {
   width: 50%;
   height: 100vh;
   /*background-color: #bfd3e2;*/
-  background-color: whitesmoke;
+  /*background-color: whitesmoke;*/
   float: left;
 }
 
@@ -80,4 +115,11 @@ p {
 .skills img {
   height: 5%;
   width: 5%;
+}
+
+.project-color {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
