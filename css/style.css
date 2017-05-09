@@ -135,3 +135,20 @@ h2, h3 {
   background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width: 640px) {
+
+  nav {
+
+  }
+
+  .guvsingh {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 200px;
+    color: black;
+    padding-top: 5%;
+    /*text-shadow: 2px 2px 8px #FFFFFF*/
+  }
+
+}
