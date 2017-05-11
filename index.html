@@ -269,40 +269,18 @@
     <section id="contact" class="contact top w3-display-container">
       <h1>Contact Me</h1>
 
-      <form class="w3-container w3-content" action="https://formspree.io/gurvinder.singh.sandhu@gmail.com" method="post" enctype="text/plain">
-
-        <input type="hidden" name="_subject" value="New message - (from my Portfolio Website)" />
-
-        <div class="">
-          <input class="w3-input w3-border" type="text" name="fullname" placeholder="Full Name">
-        </div>
+      <form class="w3-container w3-content" action="//formspree.io/gurvinder.singh.sandhu@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Portfolio Website - Message" />
+        <label class="w3-left w3-tiny" >Name</label> <input class="w3-input w3-border" type="text" name="name" required placeholder="Full Name"/>
+        <label class="w3-left w3-tiny" >Email</label> <input class="w3-input w3-border" type="email" name="_replyto" required placeholder="Email"/>
+        <label class="w3-left w3-tiny" >Mobile</label> <input class="w3-input w3-border" type="number" name="mobile" placeholder="Mobile"/>
+        <label class="w3-left w3-tiny" >URL</label> <input class="w3-input w3-border" type="url" name="url" placeholder="URL"/>
+        <label class="w3-left w3-tiny" >Message</label> <textarea rows="6" cols="30" class="w3-input w3-border" type="message" name="message" placeholder="Message - let me know what you are thinking..."></textarea>
         <br>
-
-        <div class="">
-          <input class="w3-input w3-border" type="email" name="email" placeholder="Email">
-        </div>
-        <br>
-
-        <div class="">
-          <input class="w3-input w3-border" type="number" name="mobile" placeholder="Mobile">
-        </div>
-        <br>
-
-        <div class="">
-          <input class="w3-input w3-border" type="url" name="url" placeholder="URL">
-        </div>
-        <br>
-
-        <div class="">
-          <textarea class="w3-input w3-border" name="message" rows="6" cols="30" placeholder="Message - let me know what you are thinking..."></textarea>
-        </div>
-        <br>
-
-        <button type="submit" class="w3-button w3-black">SEND MESSAGE</button>
-
-
+        <button type="submit" value="send" class="w3-button w3-black">SEND MESSAGE</button>
+        <input type="hidden" name="_next" value="http://www.apnaplates.com/guv/" />
+        <input type="text" name="_gotcha" style="display:none" />
       </form>
-
 
       <div class="">
         <a href="#skills" class="small-arrow"><i class="fa fa-chevron-up"></i></a>
