@@ -204,6 +204,14 @@ h2, h3 {
     font-size: 15px;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
   .hide-box {
     display: none;
   }
