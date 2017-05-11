@@ -2,7 +2,7 @@ console.log('Yo');
 
 $(()=> {
 
-  const $links = $('nav a');
+  const $links = $('a');
   $links.on('click', scrollToSection);
 
   function scrollToSection() {

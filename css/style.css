@@ -136,19 +136,53 @@ h2, h3 {
   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (max-width: 640px) {
+.mobileNav {
+  display: none;
+}
 
-  nav {
+.down-arrow {
+  font-size: 50px;
+  color: black;
+}
+
+@media only screen and (max-width: 575px) {
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .mainNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  section {
 
   }
 
   .guvsingh {
     font-family: 'Grand Hotel', cursive;
-    font-size: 200px;
+    font-size: 100px;
     color: black;
-    padding-top: 5%;
+    padding-top: 20%;
     /*text-shadow: 2px 2px 8px #FFFFFF*/
+  }
+
+  .home-mobile {
+    padding-top: 10%;
+    font-size: 10px;
+  }
+
+  .down-arrow {
+    font-size: 100px;
+    color: white;
   }
 
 }

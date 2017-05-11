@@ -3,38 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>Guv Singh - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="js/app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Grand+Hotel|Pacifico|Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class="">
 
     <div class="w3-top">
       <nav class="w3-bar w3-black">
-        <a class="w3-bar-item w3-button w3-hover-white" href="#home">Guv Singh</a>
-        <a class="w3-bar-item w3-button w3-hover-white" href="#bio">Bio</a>
-        <a class="w3-bar-item w3-button w3-hover-white" href="#skills">Skills</a>
-        <div class="w3-dropdown-hover">
-          <button class="w3-button w3-hover-white">Projects</button>
-          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="#project1" class="w3-bar-item w3-button w3-hover-black">Project 1 - Animal Word Conundrum</a>
-            <a href="#project2" class="w3-bar-item w3-button w3-hover-black">Project 2 - SuperCar Swap Club</a>
-            <a href="#project3" class="w3-bar-item w3-button w3-hover-black">Project 3 - SpeakEasy - Language Exchange</a>
-            <a href="#project4" class="w3-bar-item w3-button w3-hover-black">Project 4 - APNAPLATES Number Plate Auction</a>
-            <a href="#project5" class="w3-bar-item w3-button w3-hover-black">Project 5 - APNAPLATES Automatic Plate Valuations</a>
+
+        <div class="mobileNav">
+          <div class="w3-dropdown-hover w3-pink menu">
+            <button class="w3-button w3-hover-white w3-animate-top">&#9776;</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#home" class="w3-bar-item w3-button w3-hover-white">Guv Singh</a>
+              <a href="#bio" class="w3-bar-item w3-button w3-hover-white">Bio</a>
+              <a href="#project1" class="w3-bar-item w3-button w3-hover-black">Project 1 - Animal Word Conundrum</a>
+              <a href="#project2" class="w3-bar-item w3-button w3-hover-black">Project 2 - SuperCar Swap Club</a>
+              <a href="#project3" class="w3-bar-item w3-button w3-hover-black">Project 3 - SpeakEasy - Language Exchange</a>
+              <a href="#project4" class="w3-bar-item w3-button w3-hover-black">Project 4 - APNAPLATES Number Plate Auction</a>
+              <a href="#project5" class="w3-bar-item w3-button w3-hover-black">Project 5 - APNAPLATES Automatic Plate Valuations</a>
+              <a href="#skills" class="w3-bar-item w3-button w3-hover-white">Skills</a>
+              <a href="#contact" class="w3-bar-item w3-button w3-hover-white">Contact Me</a>
+            </div>
           </div>
         </div>
-        <a class="w3-bar-item w3-button w3-hover-white" href="#contact">Contact Me</a>
+
+        <div class="mainNav">
+          <a class="w3-bar-item w3-button w3-hover-white w3-pink " href="#home">Guv Singh</a>
+          <a class="w3-bar-item w3-button w3-hover-white " href="#bio">Bio</a>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-hover-white">Projects</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#project1" class="w3-bar-item w3-button w3-hover-black ">Project 1 - Animal Word Conundrum</a>
+              <a href="#project2" class="w3-bar-item w3-button w3-hover-black ">Project 2 - SuperCar Swap Club</a>
+              <a href="#project3" class="w3-bar-item w3-button w3-hover-black ">Project 3 - SpeakEasy - Language Exchange</a>
+              <a href="#project4" class="w3-bar-item w3-button w3-hover-black ">Project 4 - APNAPLATES Number Plate Auction</a>
+              <a href="#project5" class="w3-bar-item w3-button w3-hover-black ">Project 5 - APNAPLATES Automatic Plate Valuations</a>
+            </div>
+          </div>
+          <a class="w3-bar-item w3-button w3-hover-white " href="#skills">Skills</a>
+          <a class="w3-bar-item w3-button w3-hover-white " href="#contact">Contact Me</a>
+        </div>
+
       </nav>
     </div>
 
     <section id="home" class="home">
       <div class="guvsingh">Guv Singh</div>
-      <div class="w3-text-yellow home-tag">Web Developer | Entrepreneur | Dad | Car & Number Plate Lover</div>
+      <div class="home-mobile w3-text-yellow home-tag">Web Developer | Entrepreneur | Dad | Car & Number Plate Lover</div>
+      <a href="#bio" class="down-arrow"><i class="fa fa-arrow-circle-down"></i></a>
     </section>
 
     <section class="top w3-white bio" id="bio">
@@ -55,8 +79,9 @@
           <h3>Bio:</h3>
           <p>I have always been interested in solving problems and thinking of creative solutions so when I found the Web Development Immersive course at General Assembly, it was the perfect way to pivot into a new career. I really enjoyed making interactive web apps and seeing other people use them, it gives you a sense of fulfillment that my previous roles could not match. I have enjoyed learning new technologies giving me the tools to make my own stuff. Once I have finished I plan to create some engaging apps that will enhance my online business.</p>
         </header>
+        <a href="#project1" class="down-arrow"><i class="fa fa-arrow-circle-down"></i></a>
+        <a href="#home" class="down-arrow"><i class="fa fa-arrow-circle-up"></i></a>
       </article>
-      <p></p>
     </section>
 
     <section id="project1" class="">
