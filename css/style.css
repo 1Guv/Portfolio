@@ -142,6 +142,11 @@ h2, h3 {
 
 .arrow {
   font-size: 50px;
+  color: white;
+}
+
+.small-arrow {
+  font-size: 50px;
   color: black;
 }
 
@@ -180,9 +185,23 @@ h2, h3 {
     font-size: 10px;
   }
 
-  .down-arrow {
+  .arrow {
     font-size: 100px;
     color: white;
+  }
+
+  .small-arrow {
+    font-size: 50px;
+    color: black;
+  }
+
+  #bio p {
+    width: 90%;
+    font-size: 10px;
+  }
+
+  h2, h3 {
+    font-size: 15px;
   }
 
 }
