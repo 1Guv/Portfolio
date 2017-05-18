@@ -253,5 +253,108 @@ h2, h3 {
     width: 20%;
   }
 
+}
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (-webkit-min-device-pixel-ratio: 1)  {
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .mainNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .guvsingh {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 200px;
+    color: black;
+    padding-top: 0.5%;
+    /*text-shadow: 2px 2px 8px #FFFFFF*/
+  }
+
+  .home-mobile {
+    padding-top: 5%;
+    font-size: 10px;
+  }
+
+  .arrow {
+    font-size: 100px;
+    color: white;
+  }
+
+  .small-arrow {
+    font-size: 50px;
+    color: black;
+  }
+
+  #bio p {
+    width: 90%;
+    font-size: 10px;
+  }
+
+  h2, h3 {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  .hide-box {
+    display: none;
+  }
+
+  .leftbox {
+    width: 100%;
+    height: 100vh;
+    float: left;
+  }
+
+  .rightbox {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+  }
+
+  p {
+    font-size: 10px;
+    width: 90%;
+  }
+
+  .tech-display-hidden {
+    display: block;
+  }
+
+  .screenshot {
+    margin-top: 5px;
+    width: 50%;
+    border: 1px black solid;
+  }
+
+  .content {
+    margin-top: 5vh;
+  }
+
+  .skills img {
+    height: 20%;
+    width: 20%;
+  }
+
 
 }
