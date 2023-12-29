@@ -2,6 +2,8 @@ console.log('Yo');
 
 $(()=> {
 
+  console.log('Yo2');
+
   const $window = $(window);
   const $links = $('nav a');
   const $links2 = $('section a');
